@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>eRegistrar Home</title>
+  <link rel="stylesheet" type="text/css" th:href="@{/css/styles.css}">
+</head>
+<body>
+<header>
+  <nav>
+    <ul>
+      <li><a th:href="@{/api/v1/students/home}">Home</a></li>
+      <li><a th:href="@{/api/v1/students/list}">List Students</a></li>
+      <li><a th:href="@{/api/v1/students/register}">Register Student</a></li>
+      <li><a th:href="@{/api/v1/students/search}">Search Students</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <h1>Welcome to the eRegistrar System</h1>
+  <p>This is the homepage content.</p>
+  <p>This Student Management System provides a straightforward and effective way to handle student records within an educational institution. With this application, you can:</p>
+  <ul>
+    <strong>Register Students:</strong> Quickly add new student data to the system.
+    <strong>Edit Student Information:</strong> Update current student records to ensure they are accurate.
+    <strong>Delete Student Records:</strong> Remove student records when necessary.
+    <strong>Search for Students:</strong> Easily find students using various search criteria.
+    <strong>View Student List:</strong> Access a detailed list of all registered students.
+  </ul>
+  <p>Our system is designed to simplify administrative tasks and improve the overall efficiency of managing student records.</p>
+</main>
+
+<footer>
+  <p>&copy; 2024 eRegistrar. All rights reserved.</p>
+</footer>
+</body>
+</html>
